@@ -3,19 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background: linear-gradient(
-    to bottom,
-    #ff9933 52%,
-    #ffffff 52% 70%,
-    #138808 70%
-  );
+ background-color: black;
 }
+
 .tribute-img {
   width: 400px;
   height: 400px;
-  border: 5px solid salmon;
+  border: 5px solid gray;
   margin: 20px auto;
   border-radius: 50%;
   overflow: hidden;
@@ -32,11 +27,10 @@ img {
   margin: 20px auto;
   font-weight: 700;
   font-size: 36px;
-  color: #222222;
+  color:white;
   line-height: 1.4;
   max-width: 90%;
 }
-
 
 .biography {
   max-width: 800px;
@@ -47,7 +41,6 @@ img {
   text-align: justify;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 @media (max-width: 600px) {
   .tribute-img {
