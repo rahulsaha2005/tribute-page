@@ -29,10 +29,14 @@ img {
 
 .full-name {
   text-align: center;
-  margin: 20px;
-  font-weight: 500;
-  font-size: 40px;
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 36px;
+  color: #222222;
+  line-height: 1.4;
+  max-width: 90%;
 }
+
 
 .biography {
   max-width: 800px;
